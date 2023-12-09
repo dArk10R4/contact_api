@@ -38,10 +38,10 @@ const rateLimitMiddleware = setRateLimit({
 /**
  * middvares
  */
-app.set('trust proxy', 1)
+// app.set('trust proxy', 1)
 app.use(cors())
 app.use(helmet())
-app.use(rateLimitMiddleware)
+// app.use(rateLimitMiddleware)
 app.use(express.json());
 
 
